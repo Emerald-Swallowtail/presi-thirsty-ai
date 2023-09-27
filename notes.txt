@@ -1,0 +1,36 @@
+1 Projekt Green Search
+
+Hi. ich bin der Oli. Einige Kollegy und ich haben im Juli diesen Jahres
+einen Monat Zeit bekommen, um sich mit Themen im Umfeld des Sustainable 
+Software Developments zu kümmern. Davon werde ich heute erzählen.
+
+2 Motivation
+Warum wollten wir uns einen ganzen Monat um dieses Thema kümmern. Die 
+Gründe habe ich hier mal in wenigen Grafiken zusammen gefasst. 
+Zu den ersten beiden brauche ich glaube ich nicht viel zu sagen. 
+Wir erleben einen nie dagewesenen Anstieg der globalen Durchschnitts-
+temperatur, sowohl in der Höhe des Temperaturunterschieds, als auch 
+in der Geschwindigkeit der Erhöhung. 
+Stromerzeugung macht einen beachtlichen Teil des globalen CO2 Ausstoßes
+aus (Grafik 2)
+In der dritten Grafik sehen wir die Entwicklung des Stromverbrauchs der 
+DATEV Rechenzentren- Tendenz steigend, da wir die Strategie haben "in die 
+Cloud" zu gehen.
+Zuletzt eine kurze Übersicht darüber wie wir in der Vergangenheit unseren
+Strom erzuegt haben
+Und hier ist die Motivation. "Mehr grünen Strom erzeugen und weniger davon
+verbrauchen". 
+
+3 Was tun?
+Es gibt noch keine fertigen Leitfaden, Tutorials oder Standardwerke die das 
+Thema Sustainable Software Development ansprechen. Deswegen hat sich vor 
+X Jahren als Teil der Green COP - Die Nachhaltigkeit DATEV-weit voran 
+bringen möchte - eine COP für nachhaltige Softwareentwicklung gegründet.
+Der Name "Nachhaltigkeit und Webdesign" ist hier ein historisch gewachsener
+Begriff, der nicht mehr der Wahrheit entspricht- wir haben sowohl Online-
+als auch OnPremise Entwickler, als auch Designer in unserer Runde. :)
+Hier haben wir viele interessante Themen gesammelt und versuchen, uns um
+sie zu kümmern- aber das mitwirken in dieser COP ist halt ein "DATEV-Hobby"
+für das man Zeit aufbringen können muss.
+
+4 Green Search
