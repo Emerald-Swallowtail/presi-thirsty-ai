@@ -1,2 +1,0 @@
-## Einige Metriken im Blick
-

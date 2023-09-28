@@ -10,7 +10,8 @@
   "scripts": {
     "test": "gulp test",
     "start": "gulp serve",
-    "build": "gulp build"
+    "build": "gulp build",
+    "linux-vdi-inst": "export PUPPETEER_SKIP_DOWNLOAD=true && npm install"
   },
   "author": {
     "name": "Hakim El Hattab",
