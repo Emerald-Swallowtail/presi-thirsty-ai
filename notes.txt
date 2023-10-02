@@ -40,51 +40,82 @@ für das man Zeit aufbringen können muss.
 
 4 Green Search
 Einige von uns aus dieser Green COP haben mit der Tatsache, dass wir 
-nur sehr begrenzt Zeit für die Verfolgung von Sustainable Software Development
-haben, gehadert. Wir sind deshalb in einer kleinen Gruppe zusammen gekommen 
-um einen Monat fokusiert an möglichen Themen zu arbeiten. 
+nur sehr begrenzt Zeit für die Verfolgung von Sustainable Software 
+Development haben, gehadert. Wir sind deshalb in einer kleinen Gruppe zusammen
+gekommen um einen Monat fokusiert an möglichen Themen zu arbeiten. 
 
-Der Plan war hierbei, sich einen Monat Zeit zu nehmen, um sich Themen anzusehen
-bei denen ein größerer Zeitaufwand absehbar ist. 
-5 Personen haben sich von ihren FKPs das OK geben lassen sich einen Monat zurück
-zu ziehen und als Team gemeinsam an Themen zu arbeiten.
+Der Plan war hierbei, sich einen Monat Zeit zu nehmen, um sich Themen 
+anzusehen bei denen ein größerer Zeitaufwand absehbar ist. 
+5 Personen haben sich von ihren FKPs das OK geben lassen sich einen
+Monat zurückzu ziehen und als Team gemeinsam an Themen zu arbeiten.
 
-Unsere Wahl viel auf eine Idee, die "Vorher/Nachher" Projekt hieß. Die Idee war
-mögliche Metriken, anhand derer sich die "Sustainability" eines Entwicklungs-
-vorhabens messen lässt, zu suchen und zu definieren. Diese sollten danach an 
-Beispielprojekten aus der DATEV gemessen werden. Experimentelle Verbesserungen,
-die nicht in den Produktivcode einfließen sollten, sollten danach eingebaut werden.
-Als letzter Schritt sollte jede Metrik neu gemessen und die Ergebnisse aufbereitet 
-werden.
+Unsere Wahl viel auf eine Idee, die "Vorher/Nachher" Projekt hieß. 
+Die Idee war mögliche Metriken, anhand derer sich die "Sustainability" 
+eines Entwicklungsvorhabens messen lässt, zu suchen und zu definieren. 
+Diese sollten danach an Beispielprojekten aus der DATEV gemessen werden. 
+Experimentelle Verbesserungen, die nicht in den Produktivcode einfließen sollten, 
+sollten danach eingebaut werden. Als letzter Schritt sollte jede 
+Metrik neu gemessen und die Ergebnisse aufbereitet werden.
 
-Teil der Abmachung mit unseren FKPs war es, Interessierte regelmäßig über unseren 
-Fortschritt zu informieren. Deshalb haben wir zur Halbzeit einen Review-Termin
-angeboten, zusätzlich zu unseren Blog-Beiträgen in der Green COP.
+Teil der Abmachung mit unseren FKPs war es, Interessierte regelmäßig 
+über unseren Fortschritt zu informieren. Deshalb haben wir zur Halbzeit
+einen Review-Termin angeboten, zusätzlich zu unseren Blog-Beiträgen in
+der Green COP.
 Dabei haben wir kurz das breite Spektrum unserer Experimente dokumentiert,
 die von (mißglückten) Leistungsmessungen auf an den blanken Displaypins
 bis zur Nutzung von etablierten Werkzeugen gingen.
-Ich gehe später noch auf einige der Metriken, die wir gefunden haben, ein.
+Ich gehe später noch auf einige der Metriken, 
+die wir gefunden haben, ein.
 
 5 Einige Metriken im Blick
-Ich werde nur exemplarisch auf einige der Metriken eingehen, die wir gefunden
-und untersucht haben. Die Metriken lassen sich grob in 3 Gruppen aufteilen:
+Ich werde nur exemplarisch auf einige der Metriken eingehen, die wir 
+gefunden und untersucht haben. 
+Die Metriken lassen sich grob in 3 Gruppen aufteilen:
 
 Die erste Gruppe sind leicht messbare und klar optimierbare Metriken. 
-Hier am Beispiel "Page Weight" mit einer kurzen Erklärung und bereits ersten
-Ideen wie Optimierungsmöglichkeiten aussehen können.
+Hier am Beispiel "Page Weight" mit einer kurzen Erklärung und bereits
+ersten Ideen wie Optimierungsmöglichkeiten aussehen können.
 
-Die zweite Gruppe Metriken fallen eher unter den Grundsatz "Beobachten und regeln"
-da hier schwierig ist allgemeingültige Aussagen zum Sinn der Metrik und 
-Optimierungsmöglichkeiten zu geben. Dinge wie CPU-Auslastung, Speicherverbrauch 
-usw... Glücklicherweise hängen diese Metriken häufig mit dem allgemeinen 
-Wunsch zusammen, Software möglichst effizient zu gestalten.
+Die zweite Gruppe Metriken fallen eher unter den Grundsatz "Beobachten und regeln" 
+da hier schwierig ist allgemeingültige Aussagen zum Sinn der Metrik 
+und Optimierungsmöglichkeiten zu geben. Dinge wie CPU-Auslastung,
+Speicherverbrauch usw... Glücklicherweise hängen diese Metriken
+häufig mit dem allgemeinen Wunsch zusammen, Software möglichst effizient zu gestalten.
 
-Die dritte Metrik ist schwer als solche zu definieren. Es handelt sich eher um
-neue Wege, die aufgrund des Wandels bei unserer Energieerzeugung eingeschlagen
-werden können und müssen. Hier am Beispiel einer Carbon Aware Software die dann
-ihre Arbeit aufnimmt, wenn vorwiegend erneuerbare Energie erzeugt wird.
+Die dritte Metrik ist schwer als solche zu definieren. 
+Es handelt sich eher um neue Wege, die aufgrund des Wandels bei unserer 
+Energieerzeugung eingeschlagen werden können und müssen. Hier am Beispiel 
+einer Carbon Aware Software die dann ihre Arbeit aufnimmt, wenn vorwiegend
+erneuerbare Energie erzeugt wird.
 
-Wir haben eine Liste von Metriken, die wir mehr oder weniger genau untersucht 
-haben. Hier neue Metriken zuzufügen oder bestehende zu evaluieren und Optimierungs-
-maßnahmen vorzuschlagen birgt großes Mitmach-Potential.
+Wir haben eine Liste von Metriken, die wir mehr oder weniger
+genau untersucht haben. Hier neue Metriken zuzufügen oder bestehende
+zu evaluieren und Optimierungsmaßnahmen vorzuschlagen birgt 
+großes Mitmach-Potential.
+
+6 Ausblick
+Wie geht es nun weiter? Wir haben eine Reihe von Metriken gefunden. 
+Die könnten wir erweitern, wir könnten mehr davon weiter untersuchen
+oder Optimierungsmaßnahmen finden - es gibt viel zu tun.
+Deswegen werden wir uns im Januar wieder als GreenSearch zusammenfinden
+und weiter machen. Weil noch nicht sicher ist, ob wir das ursprüngliche
+GreenSearch Team wieder zusammen bekommen spreche ich hier eine Einladung aus, 
+sich mit mir in Verbindung zu setzen, falls jemand Lust hat.
+
+Was sonst noch? Vor einigen Jahren wurde aus der Green COP ein Vorschlag
+für ein Positionspapier erstellt. Dieses sollte unseren zentralen
+Governance-Stellen eine Möglichkeit geben, Stellung zum Thema 
+Sustainable Software Development zu beziehen. Nach Fertigstellung des Papiers
+wurde dieses aber leider von diesen zentralen Stellen nicht weiter verfolgt. 
+Auch hier könnte man wieder tätig werden.
+
+7 Lust auf mehr?
+Falls wir nun bei einigen von euch da draußen das Interesse geweckt haben, 
+sich selbst am Thema Sustainable Software Development zu beteiligen spreche 
+ich hier die Einladung aus, bei uns vorbei zu kommen. Wir treffen uns alle 
+2 Wochen online. 
+
+8 Fragen
+
+
 
