@@ -4,3 +4,5 @@
  - Verbesserungen anstreben
  - Metriken erneut messen
  - Metriken aufbereiten
+ - Ergebnisse kommunizieren
+ 

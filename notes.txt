@@ -2,24 +2,29 @@
 
 Hi. ich bin der Oli. Einige Kollegy und ich haben im Juli diesen Jahres
 einen Monat Zeit bekommen, um sich mit Themen im Umfeld des Sustainable 
-Software Developments zu kümmern. Davon werde ich heute erzählen.
+Software Developments zu befassen. Davon werde ich heute erzählen.
 
 2 Motivation
-Warum wollten wir uns einen ganzen Monat um dieses Thema kümmern. Die 
+Warum wollen wir uns um Sustainable Software Development kümmern? Die 
 Gründe habe ich hier mal in wenigen Grafiken zusammen gefasst. 
 Zu den ersten beiden brauche ich glaube ich nicht viel zu sagen. 
 Wir erleben einen nie dagewesenen Anstieg der globalen Durchschnitts-
 temperatur, sowohl in der Höhe des Temperaturunterschieds, als auch 
-in der Geschwindigkeit der Erhöhung. 
+in der Geschwindigkeit der Erhöhung. Dass der Treibhauseffekt durch 
+von Menschen ausgestoßene Treibhausgase verstärkt wird, nehme ich zu 
+diesem Zeitpunkt als Allgemeinwissen an.
 Stromerzeugung macht einen beachtlichen Teil des globalen CO2 Ausstoßes
-aus (Grafik 2)
+aus (Grafik 2). Der CO2 Ausstoß ist in unserem Fall wichtiger als andere 
+Treibhausgase wie Methan, weil unser Source Code auf Elektronik läuft,
+nicht auf Kühen.
 In der dritten Grafik sehen wir die Entwicklung des Stromverbrauchs der 
 DATEV Rechenzentren- Tendenz steigend, da wir die Strategie haben "in die 
 Cloud" zu gehen.
 Zuletzt eine kurze Übersicht darüber wie wir in der Vergangenheit unseren
-Strom erzuegt haben
-Und hier ist die Motivation. "Mehr grünen Strom erzeugen und weniger davon
-verbrauchen". 
+Strom erzuegt haben.
+Die Devise ist "Mehr grünen Strom erzeugen und weniger davon
+verbrauchen". Beim "Weniger davon verbrauchen" Teil können wir Software-
+entwickler ins Spiel kommen.
 
 3 Was tun?
 Es gibt noch keine fertigen Leitfaden, Tutorials oder Standardwerke die das 
@@ -34,3 +39,52 @@ sie zu kümmern- aber das mitwirken in dieser COP ist halt ein "DATEV-Hobby"
 für das man Zeit aufbringen können muss.
 
 4 Green Search
+Einige von uns aus dieser Green COP haben mit der Tatsache, dass wir 
+nur sehr begrenzt Zeit für die Verfolgung von Sustainable Software Development
+haben, gehadert. Wir sind deshalb in einer kleinen Gruppe zusammen gekommen 
+um einen Monat fokusiert an möglichen Themen zu arbeiten. 
+
+Der Plan war hierbei, sich einen Monat Zeit zu nehmen, um sich Themen anzusehen
+bei denen ein größerer Zeitaufwand absehbar ist. 
+5 Personen haben sich von ihren FKPs das OK geben lassen sich einen Monat zurück
+zu ziehen und als Team gemeinsam an Themen zu arbeiten.
+
+Unsere Wahl viel auf eine Idee, die "Vorher/Nachher" Projekt hieß. Die Idee war
+mögliche Metriken, anhand derer sich die "Sustainability" eines Entwicklungs-
+vorhabens messen lässt, zu suchen und zu definieren. Diese sollten danach an 
+Beispielprojekten aus der DATEV gemessen werden. Experimentelle Verbesserungen,
+die nicht in den Produktivcode einfließen sollten, sollten danach eingebaut werden.
+Als letzter Schritt sollte jede Metrik neu gemessen und die Ergebnisse aufbereitet 
+werden.
+
+Teil der Abmachung mit unseren FKPs war es, Interessierte regelmäßig über unseren 
+Fortschritt zu informieren. Deshalb haben wir zur Halbzeit einen Review-Termin
+angeboten, zusätzlich zu unseren Blog-Beiträgen in der Green COP.
+Dabei haben wir kurz das breite Spektrum unserer Experimente dokumentiert,
+die von (mißglückten) Leistungsmessungen auf an den blanken Displaypins
+bis zur Nutzung von etablierten Werkzeugen gingen.
+Ich gehe später noch auf einige der Metriken, die wir gefunden haben, ein.
+
+5 Einige Metriken im Blick
+Ich werde nur exemplarisch auf einige der Metriken eingehen, die wir gefunden
+und untersucht haben. Die Metriken lassen sich grob in 3 Gruppen aufteilen:
+
+Die erste Gruppe sind leicht messbare und klar optimierbare Metriken. 
+Hier am Beispiel "Page Weight" mit einer kurzen Erklärung und bereits ersten
+Ideen wie Optimierungsmöglichkeiten aussehen können.
+
+Die zweite Gruppe Metriken fallen eher unter den Grundsatz "Beobachten und regeln"
+da hier schwierig ist allgemeingültige Aussagen zum Sinn der Metrik und 
+Optimierungsmöglichkeiten zu geben. Dinge wie CPU-Auslastung, Speicherverbrauch 
+usw... Glücklicherweise hängen diese Metriken häufig mit dem allgemeinen 
+Wunsch zusammen, Software möglichst effizient zu gestalten.
+
+Die dritte Metrik ist schwer als solche zu definieren. Es handelt sich eher um
+neue Wege, die aufgrund des Wandels bei unserer Energieerzeugung eingeschlagen
+werden können und müssen. Hier am Beispiel einer Carbon Aware Software die dann
+ihre Arbeit aufnimmt, wenn vorwiegend erneuerbare Energie erzeugt wird.
+
+Wir haben eine Liste von Metriken, die wir mehr oder weniger genau untersucht 
+haben. Hier neue Metriken zuzufügen oder bestehende zu evaluieren und Optimierungs-
+maßnahmen vorzuschlagen birgt großes Mitmach-Potential.
+
