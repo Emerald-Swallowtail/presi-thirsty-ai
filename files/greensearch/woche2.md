@@ -1,1 +1,1 @@
-Woche 2: Input von TXXXXXA
+Woche 2: Input von Friederike
