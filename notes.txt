@@ -64,8 +64,20 @@ der Green COP.
 Dabei haben wir kurz das breite Spektrum unserer Experimente dokumentiert,
 die von (mißglückten) Leistungsmessungen auf an den blanken Displaypins
 bis zur Nutzung von etablierten Werkzeugen gingen.
-Ich gehe später noch auf einige der Metriken, 
-die wir gefunden haben, ein.
+Ich gehe später noch auf einige der Metriken, die wir gefunden haben, ein.
+
+In Woche zwei haben wir ....
+10.7 - 14.7.
+- SVGs schrumpfen
+- Dark mode entwürfe
+- Page Weight Optimierungen:
+    * Bilder verkleinern: Hero-Image & weitere
+    * main.js ist möglichst stark komprimiert
+    * Font-Files (notosansdisplay) sind bereits optimal
+    * Lazy Loading ist bereits implementiert
+- Sprite vs. Single Icons
+- Messen: gesendete / empfangene Daten auf contextroots
+- Testumgebung einrichten im suna-lab
 
 5 Einige Metriken im Blick
 Ich werde nur exemplarisch auf einige der Metriken eingehen, die wir 
