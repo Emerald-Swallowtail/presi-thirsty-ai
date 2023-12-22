@@ -1,133 +1,147 @@
-1 Projekt Green Search
+AI, you thirsty customer
 
-Hi. ich bin der Oli. Einige Kollegy und ich haben im Juli diesen Jahres
-einen Monat Zeit bekommen, um sich mit Themen im Umfeld des Sustainable 
-Software Developments zu befassen. Davon werde ich heute erzählen.
+Hi. I'm Oli, and a while ago I stumbled across this headline:
 
-2 Motivation
-Warum wollen wir uns um Sustainable Software Development kümmern? Die 
-Gründe habe ich hier mal in wenigen Grafiken zusammen gefasst. 
-Zu den ersten beiden brauche ich glaube ich nicht viel zu sagen. 
-Wir erleben einen nie dagewesenen Anstieg der globalen Durchschnitts-
-temperatur, sowohl in der Höhe des Temperaturunterschieds, als auch 
-in der Geschwindigkeit der Erhöhung. Dass der Treibhauseffekt durch 
-von Menschen ausgestoßene Treibhausgase verstärkt wird, nehme ich zu 
-diesem Zeitpunkt als Allgemeinwissen an.
-Stromerzeugung macht einen beachtlichen Teil des globalen CO2 Ausstoßes
-aus (Grafik 2). Der CO2 Ausstoß ist in unserem Fall wichtiger als andere 
-Treibhausgase wie Methan, weil unser Source Code auf Elektronik läuft,
-nicht auf Kühen.
-In der dritten Grafik sehen wir die Entwicklung des Stromverbrauchs der 
-DATEV Rechenzentren- Tendenz steigend, da wir die Strategie haben "in die 
-Cloud" zu gehen.
-Zuletzt eine kurze Übersicht darüber wie wir in der Vergangenheit unseren
-Strom erzuegt haben.
-Die Devise ist "Mehr grünen Strom erzeugen und weniger davon
-verbrauchen". Beim "Weniger davon verbrauchen" Teil können wir Software-
-entwickler ins Spiel kommen.
+"ChatGPT drinks 500ml of water for every conversation. And that's scary."
+https://medium.com/@aiuniverse/chatgpt-drinks-500ml-of-water-for-every-conversation-and-that-s-scary-e8558a77cd36
 
-3 Was tun?
-Es gibt noch keine fertigen Leitfaden, Tutorials oder Standardwerke die das 
-Thema Sustainable Software Development ansprechen. Deswegen hat sich vor 
-X Jahren als Teil der Green COP - Die Nachhaltigkeit DATEV-weit voran 
-bringen möchte - eine COP für nachhaltige Softwareentwicklung gegründet.
-Der Name "Nachhaltigkeit und Webdesign" ist hier ein historisch gewachsener
-Begriff, der nicht mehr der Wahrheit entspricht- wir haben sowohl Online-
-als auch OnPremise Entwickler, als auch Designer in unserer Runde. :)
-Hier haben wir viele interessante Themen gesammelt und versuchen, uns um
-sie zu kümmern- aber das mitwirken in dieser COP ist halt ein "DATEV-Hobby"
-für das man Zeit aufbringen können muss.
+With my interest piqued, I started googling and found articles about water consumption in Iowa
+(where GPT3 and four are trained) and other articles about how data centres from the big tech
+companies are taking high amounts of water out of their local water systems.
 
-4 Green Search
-Einige von uns aus dieser Green COP haben mit der Tatsache, dass wir 
-nur sehr begrenzt Zeit für die Verfolgung von Sustainable Software 
-Development haben, gehadert. Wir sind deshalb in einer kleinen Gruppe zusammen
-gekommen um einen Monat fokusiert an möglichen Themen zu arbeiten. 
+https://apnews.com/article/chatgpt-gpt4-iowa-ai-water-consumption-microsoft-f551fde98083d17a7e8d904f8be822c4
+https://www.theregister.com/2023/04/11/microsoft_evaporative_coolers_arizona/
 
-Der Plan war hierbei, sich einen Monat Zeit zu nehmen, um sich Themen 
-anzusehen bei denen ein größerer Zeitaufwand absehbar ist. 
-5 Personen haben sich von ihren FKPs das OK geben lassen sich einen
-Monat zurückzu ziehen und als Team gemeinsam an Themen zu arbeiten.
+The tune sang within these is mostly the same: 
+- Data centre water consumption has risen in the recent years
+- Main culprits are direct water consumption by cooling and indirect water consumption used by power generation
+- An especially high increase in water consumption coincides with the AI boom
+- In some regions, the water consumed by data centre strains the local water supply
 
-Unsere Wahl viel auf eine Idee, die "Vorher/Nachher" Projekt hieß. 
-Die Idee war mögliche Metriken, anhand derer sich die "Sustainability" 
-eines Entwicklungsvorhabens messen lässt, zu suchen und zu definieren. 
-Diese sollten danach an Beispielprojekten aus der DATEV gemessen werden. 
-Experimentelle Verbesserungen, die nicht in den Produktivcode einfließen sollten, 
-sollten danach eingebaut werden. Als letzter Schritt sollte jede 
-Metrik neu gemessen und die Ergebnisse aufbereitet werden.
+This is all well and good, but what about that "500ml per conversation" claim?
 
-Teil der Abmachung mit unseren FKPs war es, Interessierte regelmäßig 
-über unseren Fortschritt zu informieren. Deshalb haben wir zur Halbzeit
-einen Review-Termin angeboten, zusätzlich zu unseren Blog-Beiträgen in
-der Green COP.
-Dabei haben wir kurz das breite Spektrum unserer Experimente dokumentiert,
-die von (mißglückten) Leistungsmessungen auf an den blanken Displaypins
-bis zur Nutzung von etablierten Werkzeugen gingen.
-Ich gehe später noch auf einige der Metriken, die wir gefunden haben, ein.
+Most sources seem to cite this paper: 
+https://arxiv.org/abs/2304.03271
 
-In Woche zwei haben wir ....
-10.7 - 14.7.
-- SVGs schrumpfen
-- Dark mode entwürfe
-- Page Weight Optimierungen:
-    * Bilder verkleinern: Hero-Image & weitere
-    * main.js ist möglichst stark komprimiert
-    * Font-Files (notosansdisplay) sind bereits optimal
-    * Lazy Loading ist bereits implementiert
-- Sprite vs. Single Icons
-- Messen: gesendete / empfangene Daten auf contextroots
-- Testumgebung einrichten im suna-lab
+Important note here: This is a relativley short paper on Arxive.org
+Arxive.org is a preprint archive. Papers on here have been moderated but not 
+peer reviewed. The paper does cite its sources however. I invite you to do your own check on the paper 
+and it sources to find discrepancies. 
 
-5 Einige Metriken im Blick
-Ich werde nur exemplarisch auf einige der Metriken eingehen, die wir 
-gefunden und untersucht haben. 
-Die Metriken lassen sich grob in 3 Gruppen aufteilen:
+Now, what is in the paper?
 
-Die erste Gruppe sind leicht messbare und klar optimierbare Metriken. 
-Hier am Beispiel "Page Weight" mit einer kurzen Erklärung und bereits
-ersten Ideen wie Optimierungsmöglichkeiten aussehen können.
+Since we are not sitting together to scroll through text, let me jump to the main bits of the paper.
 
-Die zweite Gruppe Metriken fallen eher unter den Grundsatz "Beobachten und regeln" 
-da hier schwierig ist allgemeingültige Aussagen zum Sinn der Metrik 
-und Optimierungsmöglichkeiten zu geben. Dinge wie CPU-Auslastung,
-Speicherverbrauch usw... Glücklicherweise hängen diese Metriken
-häufig mit dem allgemeinen Wunsch zusammen, Software möglichst effizient zu gestalten.
+This is probably the most interesting table in the whole paper, where the researchers estimate 
+the water consumption of a gpt-3 model with 185 billion parameters.
 
-Die dritte Metrik ist schwer als solche zu definieren. 
-Es handelt sich eher um neue Wege, die aufgrund des Wandels bei unserer 
-Energieerzeugung eingeschlagen werden können und müssen. Hier am Beispiel 
-einer Carbon Aware Software die dann ihre Arbeit aufnimmt, wenn vorwiegend
-erneuerbare Energie erzeugt wird.
+Lets have a look at the row for Iowa.
+The data estimates that a GPT3 deployed in Microsofts Iowa data centre  would consume about 5 million 
+litres of water for training and about 15ml of water per "inference" given the three 
+numbers for efficiency at the start of the table. These number estimate the amount of water that is used
+per kilowatts per hour in a given location, either by the data centre itself or the power plants in 
+the electrical gid it is connected to. What they basically do is attach a kWh cost to each inference and 
+then calculate the water consumption for that.
+The handy column at the end of the table shows the estimate of how many inferences can be had for 
+500ml water consumption. 
 
-Wir haben eine Liste von Metriken, die wir mehr oder weniger
-genau untersucht haben. Hier neue Metriken zuzufügen oder bestehende
-zu evaluieren und Optimierungsmaßnahmen vorzuschlagen birgt 
-großes Mitmach-Potential.
+How do they get to these numbers? The way it is explained in the paper the scientists first took the 
+data for how much water is consumed per kWh for the data centre itself (WUE) and for the power grid 
+the data center is embedded into (Electricity Water Inensity). Then they estimated a kWh number of 
+electricity use per interaction. They first talk about an official estimate that names 0.4kWh per 100
+pages, or 0.004kWh per page. Then they name another study, where an LLM called BLOOM was measured 
+and found 0.004kWh per request and conclude that this is the number they will use. 
+But the table talks about "inferences", which is implicitly equated to "request". 
+I admit that I do not fully understand the exact connection between inferences, pages and requests-
+but I am not a scientist, so the error is probably on my part. For the context of this talk,
+I will take it at face value that asking ChatGPT one question constitutes one request or inference.
 
-6 Ausblick
-Wie geht es nun weiter? Wir haben eine Reihe von Metriken gefunden. 
-Die könnten wir erweitern, wir könnten mehr davon weiter untersuchen
-oder Optimierungsmaßnahmen finden - es gibt viel zu tun.
-Deswegen werden wir uns im Januar wieder als GreenSearch zusammenfinden
-und weiter machen. Weil noch nicht sicher ist, ob wir das ursprüngliche
-GreenSearch Team wieder zusammen bekommen spreche ich hier eine Einladung aus, 
-sich mit mir in Verbindung zu setzen, falls jemand Lust hat.
+I have here this conversation with ChatGPT 3.5. Provided that it is hosted in Iowa and that the data 
+in the paper for GPT3 holds, the roundabout 18 requests would use up an estimated 
+(15 ml by 18 exchanges) 270ml. When extended to the whole table, the estimated minimum lies between 
+130ml (Dublin) and 860ml (Washington).
 
-Was sonst noch? Vor einigen Jahren wurde aus der Green COP ein Vorschlag
-für ein Positionspapier erstellt. Dieses sollte unseren zentralen
-Governance-Stellen eine Möglichkeit geben, Stellung zum Thema 
-Sustainable Software Development zu beziehen. Nach Fertigstellung des Papiers
-wurde dieses aber leider von diesen zentralen Stellen nicht weiter verfolgt. 
-Auch hier könnte man wieder tätig werden.
+So the assumption that any one conversation with ChatGPT on average involves 500ml of water does in
+fact seem credible.
 
-7 Lust auf mehr?
-Falls wir nun bei einigen von euch da draußen das Interesse geweckt haben, 
-sich selbst am Thema Sustainable Software Development zu beteiligen spreche 
-ich hier die Einladung aus, bei uns vorbei zu kommen. Wir treffen uns alle 
-2 Wochen online. 
+There is another thing. The GPT3 Model behind ChatGPT has been retrained multiple times. If in January 2023
+it had 100 million users a month and the first training cost was 5 million litres of water, this comes down 
+to 0.05 litres per user, over each usage period between retrainings. This is of course a back of the envelope
+calculation and NOT part of the paper, but make of that number what you will.
+https://www.reuters.com/technology/chatgpt-sets-record-fastest-growing-user-base-analyst-note-2023-02-01/
 
-8 Fragen
+The question to ask now is of course, what do they mean by "drink" and how do they get to their numbers.
+The "drink" part is easily explained. In their research, the scientists in the paper mention 
+"water withdrawal" and "water consumption". Withdrawal is the amount of water taken out of a system, 
+like a municipal water source. Consumption is the amount of water of the withdrawn water, that is not
+put back into the system because of multiple factors, but in our case the main two reasons are 
+"Pollution" and "Evaporation". Whenever the paper mentions the usage of water it uses the values 
+for water consumption.
 
+Where in the blazes does a server farm pollute and evaporate such an amount of water? In the paper, this 
+question is broken down to Scope 1 and Scope 2 water consumption. 
 
+As in GHG reporting, Scope 1 is the water that is running down the pipes directly connected to the data 
+centre and used on-site. Scope 2 is the water that is used to provide utilities to the data centre. In the 
+paper the main consumer here is power production. Scope 3 would be the embodied water consumption from
+hardware manufacturing. This part of the consumption is purposefully excluded, since no reliable data could 
+be obtained by the scientists in the paper.
 
+The main source of water consumption in data centres according to the paper is cooling. There are two main
+types of cooling: direct air and evaporative cooling. When cooling with direct outside air a small but 
+still significant amount of water is consumed via either cooling the outside air down above a certain
+temperature (given as around 85° F/ 30° C) before blowing it through the system or for humidity control. 
+The paper estimates an average water consumption of 0.2 litres per kWh for this type of cooling.
+Evaporative cooling uses cooling towers that directly transport heat away from the cooling system by releasing
+evaporated water into the atmosphere. Only some of the water in the open cooling cycle of such a system 
+evaporates, but since evaporation also concentrates pollutants in the water, all the water in the system needs 
+to be exchanged after a few cooling cycles, making it waste water. The estimate for this type of cooling 
+ranges form 1 litre water consumption per kWh to 9 litres per kWh in the worst case.
+Since both types of cooling need clean water to minimize maintenance and, in case of evaporative cooling,
+maximize cooling cycles, potable (read: drinking) water is used. This is corroborated by multiple municipalities 
+around the globe either stopping the construction of data centres or feeling the strain on available water 
+in their systems from data centre operation. 
+https://www.datacenterdynamics.com/en/news/drought-stricken-holland-discovers-microsoft-data-center-slurped-84m-liters-of-drinking-water-last-year/
+https://apnews.com/article/chatgpt-gpt4-iowa-ai-water-consumption-microsoft-f551fde98083d17a7e8d904f8be822c4
+
+So lets take the estimates shown as face value for the moment. Why am I interested in that?
+Here is where I leave the context of the paper and start supplying my own feelings and thoughts on the 
+matter.
+
+This is an overview of what Windows 11 will have built in:
+https://www.microsoft.com/en-us/windows/copilot-ai-features?r=1
+On the one hand, this is basically Bing Chat crammed into the User Interface, but on the other hand there are 
+"hidden" features that utilize AI to do their job.
+The same for Adobe:
+https://www.adobe.com/products/photoshop/ai.html
+We have a DALL-e style image generator, and some "classical" Photoshop features that are now enhanced by 
+AI.
+And one more, Github:
+https://github.blog/2023-03-22-github-copilot-x-the-ai-powered-developer-experience/
+Apart from Copilot and Copilot Chat, Github plans to enhance every step of the developer journey, from 
+Documentation to Pull requests to repository handling.
+And here is where I start feeling a sting in the pit of my stomach. Lets assume that in the next few years 
+many little tools that I am accustomed to start rolling out AI features that need to be processed in the cloud.
+Lets furthermore assume that the 500ml water consumption number hold.
+What that would mean is that many little tools switch from "makes my processor work a bit harder for a while" 
+to "gulp down some small but significant amount of water". 
+I find that deeply disturbing. That we will waste even more water with every click of a button without even being 
+aware of that.
+
+And what to do? I for one have stopped using AI tools for proloned time spans. I do not use Github Copilot
+anymore, I have no longer conversations with ChatGPT and I do not endlessly produce and fine-tune images with
+DALL-e and Midjourney. 
+
+But generative AI is the future, right? Well, apart from the fact that we do not really know where on the 
+hype curve we are, there is hope:
+Evaporative cooling was used mainly because it is cheap and Megaconglomerates did not get pushback from 
+slurping up all the water in the area. Now they are getting pushback and lo and behold - things start to change.
+https://www.theregister.com/2023/04/11/microsoft_evaporative_coolers_arizona/
+Microsoft pledged to reduce its water consumption in data centres by 90% within a year and all the cloud giants
+want to be "water positive"- meaning they will put more water into circulation than they take out. So, change is coming.
+https://blogs.microsoft.com/blog/2021/10/27/supporting-our-customers-on-the-path-to-net-zero-the-microsoft-cloud-and-decarbonization/
+Within the EU, the call for data centres within our own borders beholden to our own laws is getting louder
+and louder. Maybe in future, we will know where our tools run their AI workloads and we can have a closer 
+look at how much water our AIs really use.
+
+I thank you for listening to me and I would now really like to know your take on all this.
