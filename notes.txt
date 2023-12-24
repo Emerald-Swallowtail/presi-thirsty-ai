@@ -137,9 +137,12 @@ hype curve we are, there is hope:
 Evaporative cooling was used mainly because it is cheap and Megaconglomerates did not get pushback from 
 slurping up all the water in the area. Now they are getting pushback and lo and behold - things start to change.
 https://www.theregister.com/2023/04/11/microsoft_evaporative_coolers_arizona/
-Microsoft pledged to reduce its water consumption in data centres by 90% within a year and all the cloud giants
+Microsoft pledged to reduce its water consumption in data centres by 95% until 2024 and all the cloud giants
 want to be "water positive"- meaning they will put more water into circulation than they take out. So, change is coming.
 https://blogs.microsoft.com/blog/2021/10/27/supporting-our-customers-on-the-path-to-net-zero-the-microsoft-cloud-and-decarbonization/
+Although, it should be said that above blog article is from 2021, and the water consumption of microsoft data centres 
+has gone up in the two years since, not down.
+https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW15mgm
 Within the EU, the call for data centres within our own borders beholden to our own laws is getting louder
 and louder. Maybe in future, we will know where our tools run their AI workloads and we can have a closer 
 look at how much water our AIs really use.
