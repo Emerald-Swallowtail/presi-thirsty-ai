@@ -45,9 +45,9 @@ then calculate the water consumption for that.
 The handy column at the end of the table shows the estimate of how many inferences can be had for 
 500ml water consumption. 
 
-How do they get to these numbers? The way it is explained in the paper the scientists first took the 
+Ok, so they talk about "inferences". What is that. The way it is explained in the paper the scientists first took the 
 data for how much water is consumed per kWh for the data centre itself (WUE) and for the power grid 
-the data center is embedded into (Electricity Water Inensity). Then they estimated a kWh number of 
+the data center is embedded into (Electricity Water Intensity). Then they estimated a kWh number of 
 electricity use per interaction. They first talk about an official estimate that names 0.4kWh per 100
 pages, or 0.004kWh per page. Then they name another study, where an LLM called BLOOM was measured 
 and found 0.004kWh per request and conclude that this is the number they will use. 
@@ -59,7 +59,7 @@ I will take it at face value that asking ChatGPT one question constitutes one re
 I have here this conversation with ChatGPT 3.5. Provided that it is hosted in Iowa and that the data 
 in the paper for GPT3 holds, the roundabout 18 requests would use up an estimated 
 (15 ml by 18 exchanges) 270ml. When extended to the whole table, the estimated minimum lies between 
-130ml (Dublin) and 860ml (Washington).
+126ml (Dublin) and 860ml (Washington).
 
 So the assumption that any one conversation with ChatGPT on average involves 500ml of water does in
 fact seem credible.
@@ -103,6 +103,11 @@ around the globe either stopping the construction of data centres or feeling the
 in their systems from data centre operation. 
 https://www.datacenterdynamics.com/en/news/drought-stricken-holland-discovers-microsoft-data-center-slurped-84m-liters-of-drinking-water-last-year/
 https://apnews.com/article/chatgpt-gpt4-iowa-ai-water-consumption-microsoft-f551fde98083d17a7e8d904f8be822c4
+
+Scope 2 water usage of a data centre is attributed to water consumption wile power is generated. Even with the 
+advent of renewable power sources, electricity is mainly generated in thermoelectric plants around the globe.
+In the column "Electricity Water Intensity" the scientists are naming the numbers they found for how much 
+water is consumed per kWh produced in a local grid. 
 
 So lets take the estimates shown as face value for the moment. Why am I interested in that?
 Here is where I leave the context of the paper and start supplying my own feelings and thoughts on the 
