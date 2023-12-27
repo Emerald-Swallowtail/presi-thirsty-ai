@@ -1,233 +1,275 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/moon.css">
+	<title>reveal.js</title>
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/moon.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<div style="display: flex; justify-content: right;">
+					<img style="margin-bottom: -15px;" width="350px" src="./files/images/swallowtail.png"
+						alt="An emerald swallowtail">
+				</div>
+				<div style="border-style: solid; border-width: 0.5rem; border-radius: 1rem;">
+					<h1>AI, you thirsty customer</h1>
+				</div>
+			</section>
+			<section>
+				<img src="./files/images/articles.png" alt="three web articles on AI water consumption">
+			</section>
+			<section>
 				<section>
-					<div style="display: flex; justify-content: right;">
-						<img style="margin-bottom: -15px;" width="350px" src="./files/images/swallowtail.png" alt="An emerald swallowtail">
-					</div>
-					<div style="border-style: solid; border-width: 0.5rem; border-radius: 1rem;">
-						<h1>AI, you thirsty customer</h1>
+					<div style="border-style: solid; border-width: 0.5rem; border-radius: 1rem">
+						<h1>But HOW?</h1>
 					</div>
 				</section>
 				<section>
-					<img src="./files/images/articles.png" alt="three web articles on AI water consumption">
+					<img src="./files/images/thepaper.png" alt="Screenhot of the paper in question">
 				</section>
 				<section>
-					<section>
-						<div style="border-style: solid; border-width: 0.5rem; border-radius: 1rem">
-							<h1>But HOW?</h1>
-						</div>
-					</section>
-					<section>
-						<img src="./files/images/thepaper.png" alt="Screenhot of the paper in question">
-					</section>
-					<section>
-						<img src="./files/images/thetable.png" alt="an overview table from the paper showing water usage">
-					</section>
-					<section>
-						<img src="./files/images/thetable_foriowa.png" alt="an overview table from the paper showing water usage">
-					</section>
-					<section>
-						<ul>
-							<li><h5>Based on their data:</h5>
+					<img src="./files/images/thetable.png" alt="an overview table from the paper showing water usage">
+				</section>
+				<section>
+					<img src="./files/images/thetable_foriowa.png"
+						alt="an overview table from the paper showing water usage">
+				</section>
+				<section>
+					<ul>
+						<li>
+							<h5>Based on their data:</h5>
 							<div style="background-color: aliceblue;">
-								<span style="font-size: 2rem; color: black; ">[...] GPT-3 consumes [...] 0.4kWh electricity to generate
-									100 pages of content (e.g., 0.004kWh per page)</span>	
+								<span style="font-size: 2rem; color: black; ">[...] GPT-3 consumes [...] 0.4kWh
+									electricity to generate
+									100 pages of content (e.g., 0.004kWh per page)</span>
 							</div>
-							</li>
-							<li><h5>And data from another paper:</h5>
+						</li>
+						<li>
+							<h5>And data from another paper:</h5>
 							<div style="background-color: aliceblue;">
 								<span style="font-size: 2rem; color: black; "> [...] inference energy for BLOOM
 									(a language model with [...]] 176 billion parameters [...]) is about 0.00396kWh
-									per request</span>	
+									per request</span>
 							</div>
-							</li>
-							<li><h5>They derive an energy consumption per "Request":</h5>
-								<div style="background-color: aliceblue;">
-									<span style="font-size: 2rem; color: black; ">[...] we consider 0.004kWh as the inference energy consumption per request.</span>	
-								</div>
-							</li>
-							<li><h5>"Request" is then equated with "Inference":</h5>
-								<div style="background-color: aliceblue;">
-									<span style="font-size: 2rem; color: black; ">[...] the estimated inference energy of 0.004kWh [...]</span>	
-								</div>
-							</li>
-						</ul>
-					</section>
-					<section>
-						<img src="./files/images/theconversation.png" width="500px" alt="Screenshot of a conversation with ChatGPT">
-						<div><a href="https://chat.openai.com/share/c38a35c5-407b-4383-b128-88761a7698fc">Link to the shared conversation</a></div>
-					</section>
-					<section>
-						<h3>Water consumption examples for my conversation with 18 requests</h3>
-						<table>
-							<thead>
-								<tr>
-									<th>Region</th>
-									<th>Usage/Request</th>
-									<th>~Usage</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>Iowa</td>
-									<td>15.2ml</td>
-									<td>274ml</td>
-								</tr>
-								<tr>
-									<td>Ireland</td>
-									<td>7.2ml</td>
-									<td>130ml</td>
-								</tr>
-								<tr>
-									<td>Washington</td>
-									<td>48.3ml</td>
-									<td>869ml</td>
-								</tr>
-							</tbody>
-						</table>
-					</section>
-					<section>
-						<h3>A quick note on training GPT3:</h3>
-						<ul>
-							<li>Estimated consumption 5 million litres</li>
-							<li>Has been retrained multiple times</li>
-							<li>Had 100 million users January 2023</li>
-							<li><strong>Around 0.05 litres per user per training</strong></li>
-						</ul>
-					</section>
-					<section>
-						<h3>Where does all that water go?</h3>
-						<div>The numbers estimate <strong>water consumption</strong> from <strong>Scope 1</strong>
+						</li>
+						<li>
+							<h5>They derive an energy consumption per "Request":</h5>
+							<div style="background-color: aliceblue;">
+								<span style="font-size: 2rem; color: black; ">[...] we consider 0.004kWh as the
+									inference energy consumption per request.</span>
+							</div>
+						</li>
+						<li>
+							<h5>"Request" is then equated with "Inference":</h5>
+							<div style="background-color: aliceblue;">
+								<span style="font-size: 2rem; color: black; ">[...] the estimated inference energy of
+									0.004kWh [...]</span>
+							</div>
+						</li>
+					</ul>
+				</section>
+				<section>
+					<img src="./files/images/theconversation.png" width="500px"
+						alt="Screenshot of a conversation with ChatGPT">
+					<div><a href="https://chat.openai.com/share/c38a35c5-407b-4383-b128-88761a7698fc">Link to the shared
+							conversation</a></div>
+				</section>
+				<section>
+					<h3>Water consumption examples for my conversation with 18 requests</h3>
+					<table>
+						<thead>
+							<tr>
+								<th>Region</th>
+								<th>Usage/Request</th>
+								<th>~Usage</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Iowa</td>
+								<td>15.2ml</td>
+								<td>274ml</td>
+							</tr>
+							<tr>
+								<td>Ireland</td>
+								<td>7.2ml</td>
+								<td>130ml</td>
+							</tr>
+							<tr>
+								<td>Washington</td>
+								<td>48.3ml</td>
+								<td>869ml</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+				<section>
+					<h3>A quick note on training GPT3:</h3>
+					<ul>
+						<li>Estimated consumption 5 million litres</li>
+						<li>Has been retrained multiple times</li>
+						<li>Had 100 million users January 2023</li>
+						<li><strong>Around 0.05 litres per user per training</strong></li>
+					</ul>
+				</section>
+				<section>
+					<h3>Where does all that water go?</h3>
+					<div>The numbers estimate <strong>water consumption</strong> from <strong>Scope 1</strong>
 						and <strong>Scope 2</strong> sources.</div>
-						<br>
-						<ul style="font-size: 2rem;">
-							<li><strong>Water consumption:</strong> The part of withdrawn water that becomes unavailable due to 
-								evaporation or pollution</li>
-							<li><strong>Scope 1:</strong> Water consumption by the data centre itself, mainly cooling
-							</li>
-							<li><strong>Scope 2:</strong> Water consumption from utilities, mainly power production
-							</li>
-						</ul>
-					</section>
-					<section>
-						<div style="display: flex; gap: 1rem;width: 100%;">
-							<img width="400px" src="files/images/watercycles.PNG">
-							<div style="width: 100%;">
-								<h3>Scope 2: Power production</h3>
-								<ul style="font-size: 2rem;">
-									<li>Power production mainly thermoelectric</li>
-									<li>Thermoelectric power plants need water for cooling</li>
-									<li>Available data used in column "Electricity Water Intensity"</li>
-								</ul>
-							</div>
-						</div>
-					</section>
-					<section>
-						<div style="display: flex; gap: 1rem;">
-							<img width="400px" src="files/images/watercycles.PNG">
-							<div style="width: 1200px;">
-								<h3>Scope 1: Cooling</h3>
-								lorem ipsum dolor is amet
-							</div>
-						</div>
-					</section>
-					<section>
-						<div style="display: flex; gap: 1rem;">
-							<img width="400px" src="files/images/watercycles.PNG">
-							<div style="width: 1200px;">
-								<h3>A note on Scope 3</h3>
-								<ul style="font-size: 2rem;">
-									<li>Water consumption from manufacture</li>
-									<li><span style="font-size: 2rem; color: black; background-color: aliceblue;">
-										"[...] the data [...] remains largely obscure."</span>	
-									</li>
-									<li>Not added to paper</li>
-								</ul>
-							</div>
-						</div>
-					</section>
+					<br>
+					<ul style="font-size: 2rem;">
+						<li><strong>Water consumption:</strong> The part of withdrawn water that becomes unavailable due
+							to
+							evaporation or pollution</li>
+						<li><strong>Scope 1:</strong> Water consumption by the data centre itself, mainly cooling
+						</li>
+						<li><strong>Scope 2:</strong> Water consumption from utilities, mainly power production
+						</li>
+					</ul>
 				</section>
 				<section>
-					<section>
-						<div style="border-style: solid; border-width: 0.5rem; border-radius: 1rem;">
-							<h1>Why do I care?</h1>
+					<div style="display: flex; gap: 1rem;width: 100%;">
+						<img width="400px" src="files/images/watercycles.PNG">
+						<div style="width: 100%;">
+							<h3>Scope 2: Power production</h3>
+							<ul style="font-size: 2rem;">
+								<li>Power production mainly thermoelectric</li>
+								<li>Thermoelectric power plants need water for cooling</li>
+								<li>Available data used in column "Electricity Water Intensity"</li>
+							</ul>
 						</div>
-					</section>
-					<section>
-						<img src="./files/images/aiinwindows.png" alt="overview of the AI capabilities of Windows 11">
-					</section>
-					<section>
-						<img src="./files/images/aiinphotoshop.png" alt="overview of the AI capabilities of Photoshop Creative Cloud">
-					</section>
-					<section>
-						<img src="./files/images/aiingithub.png" alt="overview of the AI capabilities of Github">
-					</section>
-					<section>
-						<h4>Tools switch from </h4> 
-						<h3> "Make my processor do work" </h3>
-						<h4> to </h4>
-						<h3> "Start an AI workload"</h3>
-						<br>
-						<h3>I find the hidden nature of that disturbing</h3>
-					</section>
+					</div>
 				</section>
 				<section>
-					<section>
-						<div style="border-style: solid; border-width: 0.5rem; border-radius: 1rem;">
-							<h1>What does the future hold?</h1>
-						</div>	
-					</section>
-					<section>
-						<img src="./files/images/microsoftwateruser.png" alt="Microsofts pledge to reduce water consumption">
-					</section>
-					<section>
-						<ul>
-							<li><h3>I stopped using AI for extended periods of time</h3></li>
-							<li><h3>I intend to start to look into the water usage of DATEV AI initiatives</h3></li>
-						</ul>
-					</section>
+					<div style="display: flex; gap: 1rem;">
+						<img width="400px" src="files/images/watercycles.PNG">
+						<div style="width: 1200px;">
+							<h3>Scope 1: Direct air cooling</h3>
+							<ul style="font-size: 2rem;">
+								<li>Cycles outside air for cooling</li>
+								<li>Potable water to minimize maintenance</li>
+								<li>Above 30° C: Uses water to cool down air</li>
+								<li>Est. consumption: 0.2 litres/kWh</li>
+							</ul>
+						</div>
+					</div>
 				</section>
 				<section>
-					sources
+					<div style="display: flex; gap: 1rem;">
+						<img width="400px" src="files/images/watercycles.PNG">
+						<div style="width: 1200px;">
+							<h3>Scope 1: Evaporative cooling</h3>
+							<ul style="font-size: 2rem;">
+								<li>Evaporated water removes heat</li>
+								<li>Potable water to minimize maintenance</li>
+								<li>80% water in open cycle evaporates</li>
+								<li>the rest concentrates pollutants</li>
+								<li>Est. consumption: 1-9 litres/kWh</li>
+							</ul>
+						</div>
+					</div>
 				</section>
-				<section data-background="./files/images/flamingos.png" data-background-opacity="80%" alt="A group of puzzeled looking flamingos">
+				<section>
+					<div style="display: flex; gap: 1rem;">
+						<img width="400px" src="files/images/watercycles.PNG">
+						<div style="width: 1200px;">
+							<h3>A note on Scope 3</h3>
+							<ul style="font-size: 2rem;">
+								<li>Water consumption from manufacture</li>
+								<li><span style="font-size: 2rem; color: black; background-color: aliceblue;">
+										"[...] the data [...] remains largely obscure."</span>
+								</li>
+								<li>Not added to paper</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+			</section>
+			<section>
+				<section>
 					<div style="border-style: solid; border-width: 0.5rem; border-radius: 1rem;">
-						<h1>Questions?</h1>
-					</div>	
+						<h1>Why do I care?</h1>
+					</div>
 				</section>
-			</div>
+				<section>
+					<img src="./files/images/aiinwindows.png" alt="overview of the AI capabilities of Windows 11">
+				</section>
+				<section>
+					<img src="./files/images/aiinphotoshop.png"
+						alt="overview of the AI capabilities of Photoshop Creative Cloud">
+				</section>
+				<section>
+					<img src="./files/images/aiingithub.png" alt="overview of the AI capabilities of Github">
+				</section>
+				<section>
+					<h4>Tools switch from </h4>
+					<h3> "Make my processor do work" </h3>
+					<h4> to </h4>
+					<h3> "Start an AI workload"</h3>
+					<br>
+					<h3>I find the hidden nature of that disturbing</h3>
+				</section>
+			</section>
+			<section>
+				<section>
+					<div style="border-style: solid; border-width: 0.5rem; border-radius: 1rem;">
+						<h1>What does the future hold?</h1>
+					</div>
+				</section>
+				<section>
+					<img src="./files/images/microsoftwateruser.png"
+						alt="Microsofts pledge to reduce water consumption">
+				</section>
+				<section>
+					<ul>
+						<li>
+							<h3>I stopped using AI for extended periods of time</h3>
+						</li>
+						<li>
+							<h3>I intend to start to look into the water usage of DATEV AI initiatives</h3>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section>
+				sources
+			</section>
+			<section data-background="./files/images/flamingos.png" data-background-opacity="80%"
+				alt="A group of puzzeled looking flamingos">
+				<div style="border-style: solid; border-width: 0.5rem; border-radius: 1rem;">
+					<h1>Questions?</h1>
+				</div>
+			</section>
 		</div>
+	</div>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
 </html>
