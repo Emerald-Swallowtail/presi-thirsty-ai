@@ -109,6 +109,41 @@ advent of renewable power sources, electricity is mainly generated in thermoelec
 In the column "Electricity Water Intensity" the scientists are naming the numbers they found for how much 
 water is consumed per kWh produced in a local grid. 
 
+AI, you messy customer
+
+Drawing on the conclusions of the paper, lets do some carbon emissions calculations. The screenshot shown is 
+electricitymaps.com, which shows the Carbon Emissions per kilowatt hours produced by country. In this case a cloudy 
+June morning in Germany. The given carbon intensity of 400g/CO2 is close to yearly estimates from the same data, so let's use that.
+For my 18 requests at 0.004 kWh this would come to 0.03grams of CO2 equivalents.
+
+But there are more sources we could look at. This is green-coding.ai, an experimental project by green-coding.io, a 
+software consultancy firm from Berlin. They have a cluster on-site that is running a number of LLMs. So they can simply measure
+the power needs of different LLMs. For one request they come out with 0.4 grams for an example request on a slightly rainy
+morning, also in June. This is quite a bit more pessimistic, as a 18 request conversation would result in 7.2grams of CO2
+
+Any more data? DATEV has its own GPT-4 instances running on Azure. Shoutout and thanks to Markus Glas and the GenAIlize Colleagues
+to let me have access to their data.
+DATEV-GPT is used frequently, with 23.000 calls in April and May and a Carbon Footprint of around 400 kg in that same time frame.
+Which would come out to 2 gram of CO2 equivalents per call. 
+
+Where does that rather large range of values come from. Well for one by their own standards, what the carbon dashboard of 
+azure is reporting are scope 3 emissions. So basically emissions from manufacturing, not power usage while running.
+Microsoft seems to think, that its power consumption does not create carbon dioxide. How come?
+
+We can find that information here: The Microsoft global commitments. 
+
+But in reality, electrtricity takes the way of least resistance. Which means locally generated power will first be used locally, unless 
+transported by specialized overland powerlines that the neighbourhoods of this world are so adamantly fighting.
+So how do things look in Poland? Lets first look at the global map of microsoft data centers. We will see that while microsoft has a 
+number of renewable energy projects worldwide, there are none in Poland (or Germany for that matter).
+
+A glance at electricitymaps for the last year in Poland shows an estimation of around 750grams CO2 per kWh produced. Which 
+would add 3 grams of CO2 per call. So 5 grams in total. Which if we keep using the numbers from my slides, 
+would be about 90 grams for my 18 requests. Assuming the data in this screenshot is correct, that would equal 450 google searches.
+Or, according to WebsiteCarbon around 220 views of StackOverflow- or any mixture of the two.
+
+Why do I care?
+
 So lets take the estimates shown as face value for the moment. Why am I interested in that?
 Here is where I leave the context of the paper and start supplying my own feelings and thoughts on the 
 matter.
@@ -133,7 +168,9 @@ to "gulp down some small but significant amount of water".
 I find that deeply disturbing. That we will waste even more water with every click of a button without even being 
 aware of that.
 
-And what to do? I for one have stopped using AI tools for proloned time spans. I do not use Github Copilot
+And what to do? 
+
+I for one have stopped using AI tools for proloned time spans. I do not use Github Copilot
 anymore, I have no longer conversations with ChatGPT and I do not endlessly produce and fine-tune images with
 DALL-e and Midjourney. 
 
@@ -152,4 +189,6 @@ Within the EU, the call for data centres within our own borders beholden to our 
 and louder. Maybe in future, we will know where our tools run their AI workloads and we can have a closer 
 look at how much water our AIs really use.
 
-I thank you for listening to me and I would now really like to know your take on all this.
+
+
+
