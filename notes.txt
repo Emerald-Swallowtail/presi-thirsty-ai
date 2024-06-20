@@ -194,9 +194,9 @@ to "gulp down some small but significant amount of water and produce some amount
 I find that deeply disturbing. That we will waste even more with every click of a button without even being 
 aware of that.
 
-I for one have stopped using AI tools for proloned time spans. I do not use Github Copilot
-anymore, I have no longer conversations with ChatGPT and I do not endlessly produce and fine-tune images with
-DALL-e and Midjourney.
+I for one have stopped using AI tools for proloned time spans. I only use Github Copilot once in a while
+to have an eye on the latest developments. I have no long conversations with ChatGPT and I
+do not endlessly produce and fine-tune images with DALL-e and Midjourney.
 
 What can you do? I do not know, nor would I dare to impose my worldviews on you. But there is one thing 
 i would ask of you: Tomorrow in the shower, or at lunch or when ever your brain is reminding you of the things
