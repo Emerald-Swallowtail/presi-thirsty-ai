@@ -142,52 +142,70 @@ would add 3 grams of CO2 per call. So 5 grams in total. Which if we keep using t
 would be about 90 grams for my 18 requests. Assuming the data in this screenshot is correct, that would equal 450 google searches.
 Or, according to WebsiteCarbon around 220 views of StackOverflow- or any mixture of the two.
 
-Why do I care?
-
-So lets take the estimates shown as face value for the moment. Why am I interested in that?
-Here is where I leave the context of the paper and start supplying my own feelings and thoughts on the 
-matter.
-
-This is an overview of what Windows 11 will have built in:
-https://www.microsoft.com/en-us/windows/copilot-ai-features?r=1
-On the one hand, this is basically Bing Chat crammed into the User Interface, but on the other hand there are 
-"hidden" features that utilize AI to do their job.
-The same for Adobe:
-https://www.adobe.com/products/photoshop/ai.html
-We have a DALL-e style image generator, and some "classical" Photoshop features that are now enhanced by 
-AI.
-And one more, Github:
-https://github.blog/2023-03-22-github-copilot-x-the-ai-powered-developer-experience/
-Apart from Copilot and Copilot Chat, Github plans to enhance every step of the developer journey, from 
-Documentation to Pull requests to repository handling.
-And here is where I start feeling a sting in the pit of my stomach. Lets assume that in the next few years 
-many little tools that I am accustomed to start rolling out AI features that need to be processed in the cloud.
-Lets furthermore assume that the 500ml water consumption number hold.
-What that would mean is that many little tools switch from "makes my processor work a bit harder for a while" 
-to "gulp down some small but significant amount of water". 
-I find that deeply disturbing. That we will waste even more water with every click of a button without even being 
-aware of that.
-
-And what to do? 
-
-I for one have stopped using AI tools for proloned time spans. I do not use Github Copilot
-anymore, I have no longer conversations with ChatGPT and I do not endlessly produce and fine-tune images with
-DALL-e and Midjourney. 
+What will the future bring? 
 
 But generative AI is the future, right? Well, apart from the fact that we do not really know where on the 
 hype curve we are, there is hope:
 Evaporative cooling was used mainly because it is cheap and Megaconglomerates did not get pushback from 
 slurping up all the water in the area. Now they are getting pushback and lo and behold - things start to change.
 https://www.theregister.com/2023/04/11/microsoft_evaporative_coolers_arizona/
+
 Microsoft pledged to reduce its water consumption in data centres by 95% until 2024 and all the cloud giants
 want to be "water positive"- meaning they will put more water into circulation than they take out. So, change is coming.
 https://blogs.microsoft.com/blog/2021/10/27/supporting-our-customers-on-the-path-to-net-zero-the-microsoft-cloud-and-decarbonization/
 Although, it should be said that above blog article is from 2021, and the water consumption of microsoft data centres 
 has gone up in the two years since, not down.
 https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW15mgm
+
 Within the EU, the call for data centres within our own borders beholden to our own laws is getting louder
 and louder. Maybe in future, we will know where our tools run their AI workloads and we can have a closer 
-look at how much water our AIs really use.
+look at how much resources our AIs really use.
+
+Smaller LLMs are on the rise too.
+Apple wants to run its "Intelligence" on its own devices, tinyllama - and others I assume - are trying to 
+cut down on model sizes.  Here is the same question posed to Mistral and tinyllama in the green-coding.ai tool
+
+Why do I care?
+
+So lets take the estimates shown as face value for the moment. Why am I interested in that?
+Here is where I leave the context of the paper and start supplying my own feelings and thoughts on the 
+matter.
+
+This is an overview of what Windows 11 has built in:
+https://www.microsoft.com/en-us/windows/copilot-ai-features?r=1
+On the one hand, this is basically Bing Chat crammed into the User Interface, but on the other hand there are 
+"hidden" features that utilize AI to do their job.
+
+The same for Adobe:
+https://www.adobe.com/products/photoshop/ai.html
+We have a DALL-e style image generator, and some "classical" Photoshop features that are now enhanced by 
+Generative AI.
+
+And one more, Github:
+https://github.blog/2023-03-22-github-copilot-x-the-ai-powered-developer-experience/
+Apart from Copilot and Copilot Chat, Github plans to enhance every step of the developer journey, from 
+Documentation to Pull requests to repository handling.
+
+And here is where I start feeling a sting in the pit of my stomach. Lets assume that in the next few years 
+many little tools that I am accustomed to start rolling out AI features that need to be processed in the cloud.
+Lets furthermore assume that the 500ml water consumption number hold.
+What that would mean is that many little tools switch from "makes my processor work a bit harder for a while" 
+to "gulp down some small but significant amount of water and produce some amount of CO2". 
+I find that deeply disturbing. That we will waste even more with every click of a button without even being 
+aware of that.
+
+I for one have stopped using AI tools for proloned time spans. I do not use Github Copilot
+anymore, I have no longer conversations with ChatGPT and I do not endlessly produce and fine-tune images with
+DALL-e and Midjourney.
+
+What can you do? I do not know, nor would I dare to impose my worldviews on you. But there is one thing 
+i would ask of you: Tomorrow in the shower, or at lunch or when ever your brain is reminding you of the things
+you just heard- Make up your own mind- and be honest to yourself. And if you would like to tell me 
+your opinion I would be very interested in you sharing it with me.  
+
+
+
+
 
 
 
