@@ -145,30 +145,41 @@ reporting. Which if we keep using the numbers from my slides,
 would be about 90 grams for my 18 requests. Assuming the data in this screenshot is correct, that would equal 450 google searches.
 Or, according to WebsiteCarbon around 220 views of StackOverflow- or any mixture of the two.
 
-What will the future bring? 
+A final word on image generation. In a paper- also on the Arxive- HuggingFace Sustainability Office Sasha Luccioni et. al. have 
+looked at the relative carbon dioxide emissions of different machine learning tasks, from relatively trivial classification to 
+GenAI use cases like text end image generation.
+https://arxiv.org/abs/2311.16863
+The shown image shows a climb in "cost"-meaning carbon emissions- by up to four orders of magnitude between single-purpose models
+and multi-purpose models, with up to 1kg of emitted CO2 for 1000 image generations.
 
-But generative AI is the future, right? Well, apart from the fact that we do not really know where on the 
-hype curve we are, there is hope:
+So, what to do?
 
-Evaporative cooling was used mainly because it is cheap and Megaconglomerates did not get pushback from 
-slurping up all the water in the area. Now they are getting pushback and lo and behold - things start to change.
-https://www.theregister.com/2023/04/11/microsoft_evaporative_coolers_arizona/
-Microsoft pledged to reduce its water consumption in data centres by 95% until 2024 and all the cloud giants
-want to be "water positive"- meaning they will put more water into circulation than they take out. So, change is coming.
-https://blogs.microsoft.com/blog/2021/10/27/supporting-our-customers-on-the-path-to-net-zero-the-microsoft-cloud-and-decarbonization/
-Although, it should be said that above blog article is from 2021, and the water consumption of microsoft data centres 
-has gone up in the two years since, not down.
-https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW15mgm
+First things first: I am standing here, talking to you as part of an industry- not individuals. I am not talking about your
+"Personal Carbon Footprint" to absolve our industry from its responsibilities. I would like you as part of this industry 
+to start the conversation on our collective responsibility.
 
-They were even worse in 2024. Instead of reducing water usage by 95% they increased it by around 80%
-https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1lMjE#page=23
+What can we do? I primarily see two avenues.
+The first is simple. Don't do GenAI. As it stands, GenAI is a waste and to the best of my knowledge nobody 
+has made significant profits from running AI features yet. I would be very thankfull for your input if you have other
+information.
 
-Smaller LLMs are on the rise.
-Apple wants to run its "Intelligence" on its own devices, tinyllama - and others I assume - are trying to 
-cut down on model sizes.  Here is the same question posed to Mistral and tinyllama in the green-coding.ai tool
+The second, more reasonable approach is to pick our models and runtime environments carefully.
 
-Ollama is a tool to run a number of open source LLMs locally. In the image shown i use it to 
-have codegemma generate source code for me. This helps me to keep an eye on my resource consumption. 
+The big hyperscalers start to get more and more pushback to the nth datacenter they want to plop into a 
+region stricken by drought and gobbling up all the water in the area.
+At the same time they plan to build more of them, while sacrificing their sustainability goals of recent years and green-washing
+the numbers they provide.
+
+Microsoft, home of GPT 3 and 4 has doubled its water use since 2019, the year in which they promised to cut their water usage 
+by 95%.
+
+To me personally, the current hyperscalers are a no-go. But we can run our own models. There is a flood of Open Source 
+LLMs of many sizes and specific use cases. Tools like Ollama and Spring AI make it easy to embed these into your own runtime
+environment. And bigger companies have found the wisdom in using smaller, local processing where applicable.
+
+Also overall, we seem to be steering into the "Valley of Tears", with the number of publications painting a more sombre
+picture of GenAI that did one year ago.
+ 
 
 Why do I care?
 
